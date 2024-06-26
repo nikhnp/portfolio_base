@@ -1,0 +1,67 @@
+:root {
+    --white: #eaf2ef;
+    --black: #0b090a;
+    --teal: #00a9a5;
+    --red: #e35d6a;
+}
+  
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    scroll-padding: 5.5vh;
+}
+
+body {
+    background: var(--white);
+    height: 99vh;
+    overflow: hidden;
+}
+
+a {
+    color: var(--teal);
+    text-decoration: none;
+  }
+
+header{
+    min-height: 150px;
+    background: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10vw;
+    border-bottom: 2px solid var(--red);
+}
+
+.logo{
+    width: 250px;
+    height: 100px;
+    background-image: url(/Resources/Nikhil-Nepal-White.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navigation > a{
+    padding: 30px;
+    font-size: 2vh;
+    transition: all 1s ease;
+}
+
+.navigation>a:hover{
+    background: var(--red);
+}
+
+footer{
+    min-height: 250px;
+    background: var(--black);
+    padding: 0px 10vw;
+    border-top: 2px solid var(--red);
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+}
