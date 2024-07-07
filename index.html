@@ -10,17 +10,46 @@
   <body>
     <header>
       <a href="/"><div class="logo"></div></a>
-      <div class="navigation">
-        <a href="/">Link</a>
+      <div class="navigation navigationTop">
+        <a href="/">Home</a>
         <a href="/">Link</a>
         <a href="/">Link</a>
         <a href="/">Link</a>
         <a href="/">Link</a>
       </div>
+      <div class="navigationM" onclick="offCanvasExtend()"></div>
     </header>
+    <div class="offCanvas" id="offCanvas">
+      <div class="offCanvasClose" onclick="offCanvasClose()"></div>
+      <a href="/"><div class="logo offCanvasLogo"></div></a>
+      <div class="offCanvasNavigation">
+        <a href="/">Home</a>
+        <a href="/">Link</a>
+        <a href="/">Link</a>
+        <a href="/">Link</a>
+        <a href="/">Link</a>
+      </div>
+      <div class="offCanvasSocials">
+        <img
+          src="/Resources/facebook-logo.png"
+          class="socialLogo"
+          alt="Facebook Logo"
+        />
+        <img
+          src="/Resources/instagram-logo.png"
+          class="socialLogo"
+          alt="Instagram Logo"
+        />
+        <img
+          src="/Resources/whatsapp-logo.png"
+          class="socialLogo"
+          alt="Whatsapp Logo"
+        />
+      </div>
+    </div>
     <footer>
       <div class="navigation">
-        <a href="/">Link</a>
+        <a href="/">Home</a>
         <a href="/">Link</a>
         <a href="/">Link</a>
         <a href="/">Link</a>
@@ -29,10 +58,29 @@
       <div class="footerContact">
         <div class="infoFooterContact">
           <a href="http://nikhilnepal.com.np">
-            <h3 class="colorWhite">Nikhil Nepal</h3>
+            <h3 class="colorWhite fontLarge">Nikhil Nepal</h3>
           </a>
+          <a href="mailto:contact@nikhilnepal.com.np">
+            <h3 class="colorRed fontMedium">contact@nikhilnepal.com.np</h3></a
+          >
         </div>
-        <div class="socialsFooterContact"></div>
+        <div class="socialsFooterContact">
+          <img
+            src="/Resources/facebook-logo.png"
+            class="socialLogo"
+            alt="Facebook Logo"
+          />
+          <img
+            src="/Resources/instagram-logo.png"
+            class="socialLogo"
+            alt="Instagram Logo"
+          />
+          <img
+            src="/Resources/whatsapp-logo.png"
+            class="socialLogo"
+            alt="Whatsapp Logo"
+          />
+        </div>
       </div>
       <div class="copyright">
         <p>
@@ -48,4 +96,5 @@
       </div>
     </footer>
   </body>
+  <script src="/index.js"></script>
 </html>
