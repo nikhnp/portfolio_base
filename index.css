@@ -152,7 +152,7 @@ footer {
 .footerContact {
   display: flex;
   justify-content: space-between;
-  padding: 25px;
+  padding: 25px 150px;
   background: rgba(0, 169, 165, 0.38);
   border-radius: 25px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -202,6 +202,10 @@ footer {
     padding: 15px;
   }
 
+  .footerContact {
+    padding: 25px 80px;
+  }
+
   .copyright {
     display: grid;
     text-align: center;
@@ -238,10 +242,10 @@ footer {
     height: 35px;
 
     position: absolute;
-    left: 300px;
+    left: 295px;
     margin: 10px;
 
-    background: url(/Resources/close.svg);
+    background: url(/Resources/menu-close.svg);
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -297,6 +301,7 @@ footer {
     display: grid;
     justify-content: center;
     align-items: center;
+    padding: 20px;
   }
 
   .infoFooterContact {
